@@ -62,3 +62,5 @@ replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230327181730-ec59454f24f5
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230411235754-c1741f1470ae
 )
+
+replace k8s.io/apimachinery/pkg/util/clock => github.com/danielltmachado/utils v0.0.1
